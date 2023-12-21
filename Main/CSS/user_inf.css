@@ -1,0 +1,276 @@
+.container-user {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.form-inf {
+    display: flex;
+    padding-top: 15px;
+}
+
+.left-inf {
+    background-color: transparent;
+    width: 16%;
+    height: auto;
+    display: initial;
+
+}
+
+.detail-inf {
+    margin-left: 18px;
+    background-color: white;
+    width: 80%;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+}
+
+.X09 {
+   padding: 25px;
+}
+.head-hs {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.head-tt {
+    font-size: 15px;
+}
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+
+
+.content {
+    flex: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.name-account{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 25px;
+}
+.dropdown-item-user{
+    color: #737373;
+    margin-bottom: 10px;
+}
+.gach{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color:#e8e8e8;
+}
+.EMH{
+    text-align: left;
+    color: #737373;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 20%;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.EMHH{
+    box-sizing: border-box;
+    color: #737373;
+    font-size: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    width: 400px;
+
+}
+.TMK1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.02);
+}
+.MK1{
+    padding: 0.5rem;
+    outline: none;
+    border: 0;
+    flex-shrink: 0;
+    filter: none;
+    width: 91%;
+}
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-container {
+    position: relative;
+}
+/* Thêm CSS cho biểu tượng mắt được ẩn khi nhập mật khẩu */
+.hide-password .password-eye-open {
+    display: none;
+}
+
+.show-password .password-eye-closed {
+    display: none;
+}
+
+.btn-save-mk{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #cc0621;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.btn-themdiachi{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #cc0621;
+    color: #fff;
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+}
+.diachicuatoi{
+    align-items: center;
+}
+.diachicuatoi, .head-hs{
+    display: flex;
+}
+.add-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.add-sdt{
+    color: #737373;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.add-diachi{
+    color: #737373;
+    font-size: 15px;
+    width: 300px;
+}
+.link-CN{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.link-Del{
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+/* CSS để tùy chỉnh cửa sổ và các ô nhập liệu */
+.update-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    width: 300px;
+    height: 320px;
+    border-radius: 3px;
+}
+/* Thiết kế các ô nhập liệu */
+.input-field {
+    margin-bottom: 10px;
+}
+.input-hoten, .input-sdt, .input-dc{
+    width: 100%;
+    height: 30px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #737373;
+    flex-shrink: 0;
+    filter: none;
+    font-size: 13px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+    display: none;
+    z-index: 9998; /* Đặt z-index thấp hơn cửa sổ form */
+}
+
+/* CSS để hiển thị form khi overlay được kích hoạt */
+.overlay.active {
+    display: block;
+}
+.btn-trolai{
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    color: #737373;
+    margin-top: 20px;
+    width: 110px;
+    height: 35px;
+}
+.btn-trolai:hover{
+    background-color: transparent;
+}
+.btn-hoanthanh{
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #cc0621;
+    color: #fff;
+    margin-top: 20px;
+    width: 110px;
+    height: 35px;
+}
+
+.add-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    width: 300px;
+    height: 320px;
+    border-radius: 3px;
+}

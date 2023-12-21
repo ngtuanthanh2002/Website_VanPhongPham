@@ -1,0 +1,167 @@
+.body-giohang{
+    background-color:  #F7F7F7;
+}
+.container3{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-thaotac{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    overflow: hidden;
+    border-radius: 3px;
+    height: 55px;
+    font-size: 15px;
+    background: #fff;
+    margin-bottom: 12px;
+    color: #888;
+    padding: 0 20px;
+    text-align: center;
+}
+.P-sanpham{
+    color: #cc0621;
+    width: 50%;
+    text-align: left;
+}
+.P-dongia{
+    width: 15.88022%;
+}
+.P-soluong{
+    width: 15.4265%;
+}
+.P-sotien{
+    width: 10.43557%;
+}
+.P-delete{
+    width: 15.88022%;
+}
+.EOP{
+    background-color: #fff;
+    height: auto;
+    position: relative;
+    padding-bottom: 1px;
+}
+.AOVV{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    margin-top: 15px
+}
+.AOV{
+    position: relative;
+    height: 150px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.in-label {
+    display: flex;
+    position: relative;
+    min-width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ẩn hộp checkbox mặc định */
+.in-label input[type="checkbox"] {
+    display: none;
+}
+
+/* Tạo hộp checkbox tùy chỉnh */
+.in-label label {
+    position: absolute;
+    width: 15px; /* Chiều rộng của hộp checkbox tùy chỉnh */
+    height: 15px; /* Chiều cao của hộp checkbox tùy chỉnh */
+    border: 2px solid #cc0621; /* Màu viền của hộp checkbox tùy chỉnh */
+    cursor: pointer;
+}
+
+/* Thay đổi màu dấu tích và hộp checkbox khi được chọn */
+.in-label input[type="checkbox"]:checked + label {
+    background-color: #cc0621; /* Màu nền của dấu tích khi được chọn */
+    border-color: #cc0621; /* Màu viền của hộp checkbox khi được chọn */
+}
+
+/* Ẩn dấu tích mặc định */
+.in-label input[type="checkbox"]:checked + label:after {
+    content: "";
+    position: absolute;
+    margin-left: 1px;
+    width: 8px; /* Chiều rộng của dấu tích */
+    height: 8px; /* Chiều cao của dấu tích */
+    border-left: 2px solid #fff; /* Màu dấu tích */
+    border-bottom: 2px solid #fff; /* Màu dấu tích */
+    transform: rotate(-45deg); /* Xoay dấu tích 45 độ */
+    display: block;
+}
+
+.BOV{
+    display: flex;
+}
+.ten-giohang{
+    height: 100px;
+    padding: 10px;
+}
+.max-text-giohang{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 230px; /* 3 dòng x 16px/line-height = 48px */
+}
+.phanloai{
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+    width: 136px;
+}
+.dongia{
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+    width: 162px;
+}
+.soluong{
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+}
+.sotien{
+    align-items: center;
+    justify-content: center;
+    color: #cc0621;
+    width: 162px;
+}
+.thaotac{
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+}
+.delete-icon{
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+.delete-icon:hover{
+    color: #cc0621;
+}
+.sticky-top-giohang{
+    z-index: 2;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.navigation-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    width: 136px;
+    color: #737373;
+}

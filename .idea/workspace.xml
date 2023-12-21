@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40c4ff23-55f7-4783-949d-40708abb017d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2XTWogIAaIN7o5nKLelv650LvWa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VanPhongPham3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c4ff23-55f7-4783-949d-40708abb017d" name="Changes" comment="" />
+      <created>1698653728670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698653728670</updated>
+      <workItem from="1698653730406" duration="657000" />
+      <workItem from="1698654516133" duration="772000" />
+      <workItem from="1698655385680" duration="277000" />
+      <workItem from="1698669877503" duration="7057000" />
+      <workItem from="1698730605695" duration="11051000" />
+      <workItem from="1698825693872" duration="4821000" />
+      <workItem from="1698906926801" duration="7063000" />
+      <workItem from="1698973356350" duration="702000" />
+      <workItem from="1698980427164" duration="319000" />
+      <workItem from="1699025096497" duration="1871000" />
+      <workItem from="1699070098642" duration="6631000" />
+      <workItem from="1699203360644" duration="114000" />
+      <workItem from="1699250713414" duration="11924000" />
+      <workItem from="1699282139796" duration="5703000" />
+      <workItem from="1699580294096" duration="766000" />
+      <workItem from="1700060527517" duration="5439000" />
+      <workItem from="1700148357326" duration="2336000" />
+      <workItem from="1700495855996" duration="1212000" />
+      <workItem from="1700729188361" duration="1060000" />
+      <workItem from="1700730914289" duration="609000" />
+      <workItem from="1701009948686" duration="2357000" />
+      <workItem from="1701013898043" duration="3044000" />
+      <workItem from="1701064694291" duration="707000" />
+      <workItem from="1701066857977" duration="37000" />
+      <workItem from="1701067710141" duration="492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Main/product.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
